@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ee605e0d-3dd6-4d1a-a867-d6d74944074e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1mv59FX4hUXlXS5yt8PmT9qaU0z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.19.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="10.17.50" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Node.js.bin/www">
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.app.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee605e0d-3dd6-4d1a-a867-d6d74944074e" name="Default Changelist" comment="" />
+      <created>1610361072891</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610361072891</updated>
+      <workItem from="1610361075279" duration="1397000" />
+      <workItem from="1610454846692" duration="599000" />
+      <workItem from="1610486414621" duration="1851000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/public/javascripts/mainscript.js" />
+      </list>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="416" y="119" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610361386224">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="416" y="119" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.741@0.0.1366.741" timestamp="1610361386224" />
+    <state width="1326" height="106" key="GridCell.Tab.0.bottom" timestamp="1610364008367">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state width="1326" height="106" key="GridCell.Tab.0.bottom/0.0.1366.741@0.0.1366.741" timestamp="1610364008367" />
+    <state width="1326" height="106" key="GridCell.Tab.0.center" timestamp="1610364008367">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state width="1326" height="106" key="GridCell.Tab.0.center/0.0.1366.741@0.0.1366.741" timestamp="1610364008367" />
+    <state width="1326" height="106" key="GridCell.Tab.0.left" timestamp="1610364008367">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state width="1326" height="106" key="GridCell.Tab.0.left/0.0.1366.741@0.0.1366.741" timestamp="1610364008367" />
+    <state width="1326" height="106" key="GridCell.Tab.0.right" timestamp="1610364008367">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state width="1326" height="106" key="GridCell.Tab.0.right/0.0.1366.741@0.0.1366.741" timestamp="1610364008367" />
+    <state x="187" y="4" key="SettingsEditor" timestamp="1610361777924">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="187" y="4" key="SettingsEditor/0.0.1366.741@0.0.1366.741" timestamp="1610361777924" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="lostAndFound" type="b2602c69:ProjectViewProjectNode" />
+        <item name="lostAndFound" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+</project>

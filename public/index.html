@@ -8,17 +8,53 @@
     <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
 
 </head>
-<body>
-<section class="section">
-    <div class="container">
-        <h1 class="title">Lost</h1>
+<body class="is-mobile is-desktop is-tab">
+<header>
+    <nav class="navbar" role="navigation" aria-label="main navigation" style="background-color:lightseagreen">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://bulma.io">
+                <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+            </a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+               data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item">
+                    Home
+                </a>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-info">
+                            About
+                        </a>
+                        <a class="button is-info">
+                            Contact
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="container" style="background-color: #00B7FF;padding-right:50%;padding-top: 10%">
+    <div class="column">
+        <h1 class="title" style="align-content: center">Lost</h1>
     </div>
-</section>
-<section class="section">
-    <div class="container">
-        <h1 class="title">Found</h1>
+</div>
+<div class="container" style="background-color: brown;padding-right: 50%;padding-top: 10%">
+    <div class="column is-half">
+        <h1 class="title" style="align-content: center">Found</h1>
     </div>
-</section>
+</div>
 <script src="javascripts/mainscript.js"></script>
 </body>
 </html>

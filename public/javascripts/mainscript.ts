@@ -2,7 +2,7 @@
 import * as express from "express";
 
 //Erzeugen des Express-Objekts als fertigen Server
-const router: express.Express = express();
+const router = express();
 //Starten des Servers auf Port 8080 (weil der meist frei ist)
 router.listen(8080, () => {
     console.log("Server auf http://localhost:8080/ gestartet");

@@ -1,10 +1,12 @@
 //Importieren des Express-Paketes, was vorher über die package.json als Abhängigkeit angegeben wurde
-import * as express from "express";
+//import * as express from "express";
 
+const express = require('express');
 //Erzeugen des Express-Objekts als fertigen Server
 const router = express();
+const port=8080;
 //Starten des Servers auf Port 8080 (weil der meist frei ist)
-router.listen(8080, () => {
+router.listen(port, () => {
     console.log("Server auf http://localhost:8080/ gestartet");
 });
 
@@ -18,13 +20,13 @@ router.use("/", express.static(__dirname + "/public"));
 router.use("/dependency", express.static(__dirname + "/node_modules"));
 
 //Die Startseite als "/" liefert immer per sendFile eine Webseite (HTML-Datei) zurück
-router.get("/", (req: express.Request, res: express.Response) => {
+router.get("/", (req, res) => {
     res.status(200);
     res.sendFile(__dirname + "/index.html");
 });
 
 //Routen funktionieren wie Eventhandler: Aus einer HTTP-Methode und einer URL wird eine Aktion abgeleitet
-router.post("/user", (req: express.Request, res: express.Response) => {
+router.post("/user", (req, res) => {
     //Die Parameter in POST und PUT stecken im Request-Body, daher auch req.body.name als Zugriff
     const fname: string = req.body.fname;
     const lname: string = req.body.lname;
@@ -48,7 +50,7 @@ router.post("/user", (req: express.Request, res: express.Response) => {
 });
 
 //Teile der URL können selbst variabel sein, z.B. /user/0 oder /user/1337
-router.get("/user/:id",  (req: express.Request, res: express.Response)=>{
+router.get("/user/:id",  (req, res)=>{
     //Per req.params.name kann auf diesen variablen Teil zugegriffen werden
     const id: number = Number(req.params.id);
 
